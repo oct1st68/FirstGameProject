@@ -47,8 +47,8 @@ void Draw(){
             else {
                 bool isTail = false;
                 for(int k = 0; k < nTail; k++ ){
-                    if(tailX[k]== j && tailY[k] == x){
-                        cout<<char(254); //Ve than
+                    if(tailX[k]== j && tailY[k] == i){
+                        cout<<"o"; //Ve than
                         isTail = true;
                     }
                 }
